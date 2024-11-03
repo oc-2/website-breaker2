@@ -39,10 +39,6 @@ jobs:
       - checkout
       - build_project:
           path: 'geo-search'
-    filters:
-      branches:
-        only:
-          - main # Runs on every commit to the main branch
 
   build_react_projects:
     executor: node18
@@ -50,10 +46,6 @@ jobs:
       - checkout
       - build_project:
           path: 'website-breaker'
-    filters:
-      branches:
-        only:
-          - main # Runs on every commit to the main branch
 
 workflows:
   version: 2.1
@@ -66,5 +58,13 @@ workflows:
               only:
                 - main # Specify the branch for the scheduled build
     jobs:
-      - build_angular_projects
-      - build_react_projects
+      - build_angular_projects:
+          filters:
+            branches:
+              only:
+                - main # Runs on every commit to the main branch
+      - build_react_projects:
+          filters:
+            branches:
+              only:
+                - main # Runs on every commit to the main branch
