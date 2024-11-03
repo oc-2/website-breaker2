@@ -31,6 +31,7 @@ commands:
           key: yarn-packages-{{ checksum "<< parameters.path >>/yarn.lock" }}
           paths:
             - ./<< parameters.path >>/node_modules
+
 jobs:
   build_angular_projects:
     executor: node14
@@ -49,6 +50,13 @@ jobs:
 workflows:
   version: 2.1
   build:
+    triggers:
+      - schedule:
+          cron: "0 0 * * 0" # Runs at midnight every Sunday (weekly)
+          filters:
+            branches:
+              only:
+                - main
     jobs:
       - build_angular_projects
       - build_react_projects
