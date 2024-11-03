@@ -44,6 +44,3 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
-
-      - name: Confirm Pages deployment
-        run: echo "https://oc-2.github.io/website-breaker2/"
