@@ -26,7 +26,6 @@ jobs:
 
       - name: Set up Node.js
         uses: actions/setup-node@v2
-        with:
 
       - name: Install dependencies and build
         run: |
