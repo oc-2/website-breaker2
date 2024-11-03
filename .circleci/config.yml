@@ -1,5 +1,4 @@
 version: 2.1
-
 executors:
   node14:
     docker:
@@ -7,7 +6,6 @@ executors:
   node18:
     docker:
       - image: cimg/node:18.19.0
-
 commands:
   build_project:
     description: 'Building << path >>...'
@@ -31,7 +29,6 @@ commands:
           key: yarn-packages-{{ checksum "<< parameters.path >>/yarn.lock" }}
           paths:
             - ./<< parameters.path >>/node_modules
-
 jobs:
   build_angular_projects:
     executor: node14
@@ -39,31 +36,15 @@ jobs:
       - checkout
       - build_project:
           path: 'geo-search'
-
   build_react_projects:
     executor: node18
     steps:
       - checkout
       - build_project:
           path: 'website-breaker'
-
 workflows:
+  version: 2.1
   build:
-    triggers:
-      - schedule:
-          cron: "0 0 * * 0" # Runs at 00:00 every Sunday (weekly)
-          filters:
-            branches:
-              only:
-                - main # Specify the branch for the scheduled build
     jobs:
-      - build_angular_projects:
-          filters:
-            branches:
-              only:
-                - main # Runs on every commit to the main branch
-      - build_react_projects:
-          filters:
-            branches:
-              only:
-                - main # Runs on every commit to the main branch
+      - build_angular_projects
+      - build_react_projects
