@@ -1,0 +1,24 @@
+<header class="header">
+  <h1 class="header-title">
+    <a href="/">geo-search</a>
+  </h1>
+  <p class="header-subtitle">
+    using
+    <a href="https://github.com/algolia/angular-instantsearch">
+      Angular InstantSearch
+    </a>
+  </p>
+</header>
+
+<div class="container">
+  <ais-instantsearch [config]="config">
+    <div class="search-panel">
+      <div class="search-panel__results">
+        <div class="searchbox">
+          <ais-search-box placeholder=""></ais-search-box>
+        </div>
+        <ais-geo-search></ais-geo-search>
+      </div>
+    </div>
+  </ais-instantsearch>
+</div>
