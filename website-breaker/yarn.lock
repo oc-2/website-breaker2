@@ -1577,10 +1577,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@oc-2/website-breaker@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@oc-2/website-breaker/-/website-breaker-1.0.2.tgz#2e6077be6478755bb9da8dc0fbe2118faa71a168"
-  integrity sha512-9+w1WCzoP8Tc0tvfk/eylCbY2/E/R4u8SXccWqjHCUDYoqmka6vL2oQCaUF3mjBXmsN+gDPr1yPfp9a+z8qW5A==
+"@oc-2/website-breaker@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@oc-2/website-breaker/-/website-breaker-1.0.3.tgz#eacb4a18f525230d01f927f4eea6848216561411"
+  integrity sha512-0vTSjiV/gS42sbNq8/zGD/C2xdwopJIPU8lxu+oPdKXsXBIcKifMn5TgLJeHgD4qOOiuKgJN/wDzb5tnRnTTow==
   dependencies:
     html2canvas "^1.4.1"
     matter-js "^0.18.0"
