@@ -1,10 +1,10 @@
 [build]
   base = "geo-search/"
   publish = "dist/geo-search"
-  command = "yarn run start"
+  command = "ng build"
 
 [dev]
-  command = "yarn run start"
+  command = "ng build"
   functions = "netlify/functions"
 
 [[redirects]]

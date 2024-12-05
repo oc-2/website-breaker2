@@ -1,8 +1,8 @@
 version: 2.1
 executors:
-  nodelatest:
+  node22:
     docker:
-      - image: cimg/node:latest
+      - image: cimg/node:22.12.0
 commands:
   build_project:
     description: 'Building << path >>...'
@@ -28,13 +28,13 @@ commands:
             - ./<< parameters.path >>/node_modules
 jobs:
   build_angular_projects:
-    executor: nodelatest
+    executor: node22
     steps:
       - checkout
       - build_project:
           path: 'geo-search'
   build_react_projects:
-    executor: nodelatest
+    executor: node22
     steps:
       - checkout
       - build_project:
