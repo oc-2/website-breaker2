@@ -1,11 +1,8 @@
 version: 2.1
 executors:
-  node14:
+  nodelatest:
     docker:
-      - image: cimg/node:14.17.0
-  node18:
-    docker:
-      - image: cimg/node:18.19.0
+      - image: cimg/node:latest
 commands:
   build_project:
     description: 'Building << path >>...'
@@ -31,13 +28,13 @@ commands:
             - ./<< parameters.path >>/node_modules
 jobs:
   build_angular_projects:
-    executor: node14
+    executor: nodelatest
     steps:
       - checkout
       - build_project:
           path: 'geo-search'
   build_react_projects:
-    executor: node18
+    executor: nodelatest
     steps:
       - checkout
       - build_project:

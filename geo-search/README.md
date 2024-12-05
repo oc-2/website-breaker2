@@ -1,4 +1,5 @@
 # GeoSearch
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e6b205e9-ae4b-4dd9-97b6-d77b16c778e0/deploy-status)](https://app.netlify.com/sites/website-breaker2/deploys)
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.3.
 
@@ -7,7 +8,15 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 To start a local development server, run:
 
 ```bash
-ng serve
+npm install
+npm run start
+```
+
+Alternatively, you can use [Yarn](https://yarnpkg.com/):
+
+```bash
+yarn install
+yarn run start
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
