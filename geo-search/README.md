@@ -1,5 +1,5 @@
 # GeoSearch
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e6b205e9-ae4b-4dd9-97b6-d77b16c778e0/deploy-status)](https://app.netlify.com/sites/website-breaker2/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e457962e-729d-4573-9112-1fa85b181886/deploy-status)](https://app.netlify.com/sites/webstie-breaker2/deploys)
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.3.
 
