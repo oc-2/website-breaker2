@@ -14,7 +14,8 @@ concurrency:
   group: lock-threads
 
 jobs:
-  action:
+  lock:
+    name: Lock Threads
     runs-on: ubuntu-latest
     steps:
       - uses: dessant/lock-threads@v5
