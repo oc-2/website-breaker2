@@ -52,9 +52,11 @@ jobs:
             source $BASH_ENV  
       - run:
           name: Run Linter
+          working_directory: website-breaker
           command: deno lint
       - run:
           name: Run Tests
+          working_directory: website-breaker
           command: deno test -A
 
 workflows:
