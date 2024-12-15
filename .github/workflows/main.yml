@@ -35,7 +35,7 @@ jobs:
       - name: Install dependencies and build
         run: |
           cd website-breaker
-          deno task start
+          deno task build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

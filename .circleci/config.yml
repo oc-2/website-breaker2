@@ -40,7 +40,6 @@ jobs:
     executor: node22
     steps:
       - checkout:
-          path: /website-breaker
       - run:
           name: Install Deno
           command: |
@@ -48,7 +47,9 @@ jobs:
             echo 'export DENO_INSTALL="$HOME/.deno"' >> $BASH_ENV
             echo 'export PATH="$DENO_INSTALL/bin:$PATH"' >> $BASH_ENV
             source $BASH_ENV
-            deno --version
+      - run:
+          name: cd website-breaker
+          command: cd website-breaker      
       - run:
           name: Run Linter
           command: deno lint
