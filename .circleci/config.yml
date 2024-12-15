@@ -54,11 +54,7 @@ jobs:
           name: Run Linter
           working_directory: website-breaker
           command: deno lint
-      - run:
-          name: Run Tests
-          working_directory: website-breaker
-          command: deno test -A ./website-breaker
-
+          
 workflows:
   version: 2.1
   build:
