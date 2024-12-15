@@ -57,7 +57,7 @@ jobs:
       - run:
           name: Run Tests
           working_directory: website-breaker
-          command: deno test -A
+          command: deno test -A ./website-breaker
 
 workflows:
   version: 2.1
