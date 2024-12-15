@@ -39,7 +39,7 @@ jobs:
   build_deno:
     executor: node22
     steps:
-      - checkout:
+      - checkout
       - run:
           name: Install Deno
           command: |
