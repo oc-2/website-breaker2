@@ -338,10 +338,10 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/google-maps@^19.0.3":
-  version "19.0.3"
-  resolved "https://registry.yarnpkg.com/@angular/google-maps/-/google-maps-19.0.3.tgz#19704dd4bf08dc439a0f9a8b133e1133f6224e49"
-  integrity sha512-z6gi+yv/AgsriuPdMeR1IBs+puFOOZpVYTCRkmSJ1azkReczJfXZlYMw1sc0fpohAVwbpPDOh7y0CWUVOFaO2A==
+"@angular/google-maps@^19.0.4":
+  version "19.0.4"
+  resolved "https://registry.yarnpkg.com/@angular/google-maps/-/google-maps-19.0.4.tgz#123261ffd511f48a2ee71cf4d0796bdc3086a6ba"
+  integrity sha512-lsniAwvKBC9MuiwaYzY5B1d4yTac8t9ja6H+aB0HquCV/DAUJhsL8OJJ9plVk+/4MdZq49m1t63sjQK6EgbRmQ==
   dependencies:
     "@types/google.maps" "^3.54.10"
     tslib "^2.3.0"
