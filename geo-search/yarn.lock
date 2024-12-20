@@ -303,10 +303,10 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/compiler-cli@^19.0.4":
-  version "19.0.4"
-  resolved "https://registry.yarnpkg.com/@angular/compiler-cli/-/compiler-cli-19.0.4.tgz#84b463b9e9852004e360936e004b2bc7bc9eb4b2"
-  integrity sha512-D26HwIYNuvo39Jnimv3VguBpMZkpGf1zAS3ZE9atfk1AQOew7KSFnqbSm1IRHiTj99cqnBE068q1zZnXg+3mEA==
+"@angular/compiler-cli@^19.0.5":
+  version "19.0.5"
+  resolved "https://registry.yarnpkg.com/@angular/compiler-cli/-/compiler-cli-19.0.5.tgz#1ac06711a615eb8f7bc38959bc0a01991d2dc622"
+  integrity sha512-KSzuWCTZlvJsoAenxM9cjTOzNM8mrFxDBInj0KVPz7QU83amGS4rcv1pWO/QGYQcErfskcN84TAdMegaRWWCmA==
   dependencies:
     "@babel/core" "7.26.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
