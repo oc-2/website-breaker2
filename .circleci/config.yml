@@ -20,7 +20,7 @@ commands:
           name: 'Building << parameters.path >>'
           command: |
             cd "<< parameters.path >>"
-            npm i -g corepack
+            sudo npm i -g corepack
             corepack enable
             yarn set version stable
             yarn
