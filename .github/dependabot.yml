@@ -5,7 +5,9 @@ updates:
     labels:
       - "dependencies"
     schedule:
-      interval: "weekly"
+      interval: "daily"
+    commit-message:
+      prefix: "⬆️"
   - package-ecosystem: "github-actions"
     directory: "/"
     labels:
