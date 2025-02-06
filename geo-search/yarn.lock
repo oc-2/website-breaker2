@@ -371,10 +371,10 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/ssr@^19.1.5":
-  version "19.1.5"
-  resolved "https://registry.yarnpkg.com/@angular/ssr/-/ssr-19.1.5.tgz#7eeb4bcbb60a63f238b895e2d3ba548472a08ae5"
-  integrity sha512-3tVLI2mycYKOukurcYK0bCN5j7kCyE7pCOh6BeAPYN6EY8wnXkxPALqRO6Sb9HjApkdm5THLG/uXwkebUhsQVw==
+"@angular/ssr@^19.1.6":
+  version "19.1.6"
+  resolved "https://registry.yarnpkg.com/@angular/ssr/-/ssr-19.1.6.tgz#72dc74a18d895c3f04f3e726799454ef35924b95"
+  integrity sha512-2tfTKnNMITCi6Kd4q9wlWJE4lsqDdK8anvDPocUbRk1rprP2wLxW2NrYNC1QMfCmJjYxPRLgh9syA3cAWMr84g==
   dependencies:
     tslib "^2.3.0"
 
