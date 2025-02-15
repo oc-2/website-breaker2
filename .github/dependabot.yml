@@ -8,6 +8,7 @@ updates:
       interval: "daily"
     commit-message:
       prefix: "⬆️"
+    open-pull-requests-limit: 7
   - package-ecosystem: "github-actions"
     directory: "/"
     labels:
