@@ -17,7 +17,7 @@ jobs:
           node-version: '17.5.0'
 
       - name: Install things
-        run: cd geo-search && npm i -g npm@8.4.1 && npm install -g yarn@1.22.15 && npm i -g corepack@0.10.0 && corepack enable && yarn set version 3.1.1
+        run: cd geo-search && npm i -g npm@8.4.1 && npm install -g yarn@1.22.15 && npm i -g corepack@0.10.0 && corepack enable && yarn set version 3.1.1 && yarn install
         env:
           YARN_IGNORE_NODE: '1'
 
