@@ -1,9 +1,9 @@
-modules = ["web", "nix", "nodejs-16"]
+modules = ["web", "nix", "nodejs-23"]
 
 [nix]
 channel = "stable-24_05"
 
 [[ports]]
 localPort = 4200
-externalPort = 4200
+externalPort = 80
 exposeLocalhost = true
