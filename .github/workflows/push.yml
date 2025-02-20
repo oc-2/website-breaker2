@@ -30,6 +30,8 @@ jobs:
 
           # Immediately echo "Job finished!" to signal the job is continuing
           echo "Job finished!"
+        env:
+          YARN_IGNORE_NODE: '1'
 
       - name: Commit and Push
         run: |
