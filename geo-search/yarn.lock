@@ -499,9 +499,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/google-maps@npm:^19.1.4":
-  version: 19.1.4
-  resolution: "@angular/google-maps@npm:19.1.4"
+"@angular/google-maps@npm:^19.1.5":
+  version: 19.1.5
+  resolution: "@angular/google-maps@npm:19.1.5"
   dependencies:
     "@types/google.maps": "npm:^3.54.10"
     tslib: "npm:^2.3.0"
@@ -509,7 +509,7 @@ __metadata:
     "@angular/common": ^19.0.0 || ^20.0.0
     "@angular/core": ^19.0.0 || ^20.0.0
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10c0/d0bed0e66019b983cc6a434777efa736d61dab04e853af4b0b2fee82bec8c8abc0f8ffc8cb4dab4bbf8328824bf4f7d5c9f071f7b5c8bb80b4b0e959720e154e
+  checksum: 10c0/830e0e00af8a059eda5e5f87212806b45e8d91695f35262cd8e15627259dae8b2f76ca11daec7aa6ee29d7e90d37d4b02d3d7aa6fb47802ef74456dd4fcdb536
   languageName: node
   linkType: hard
 
@@ -5498,7 +5498,7 @@ __metadata:
     "@angular/compiler-cli": "npm:^19.1.6"
     "@angular/core": "npm:^19.1.6"
     "@angular/forms": "npm:^19.1.6"
-    "@angular/google-maps": "npm:^19.1.4"
+    "@angular/google-maps": "npm:^19.1.5"
     "@angular/platform-browser": "npm:^19.1.7"
     "@angular/platform-browser-dynamic": "npm:^19.1.7"
     "@angular/platform-server": "npm:^19.1.6"
