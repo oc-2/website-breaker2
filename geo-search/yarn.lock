@@ -576,20 +576,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/ssr@npm:^19.1.8":
-  version: 19.1.8
-  resolution: "@angular/ssr@npm:19.1.8"
+"@angular/ssr@npm:^19.2.0":
+  version: 19.2.0
+  resolution: "@angular/ssr@npm:19.2.0"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/common": ^19.0.0
-    "@angular/core": ^19.0.0
-    "@angular/platform-server": ^19.0.0
-    "@angular/router": ^19.0.0
+    "@angular/common": ^19.0.0 || ^19.2.0-next.0
+    "@angular/core": ^19.0.0 || ^19.2.0-next.0
+    "@angular/platform-server": ^19.0.0 || ^19.2.0-next.0
+    "@angular/router": ^19.0.0 || ^19.2.0-next.0
   peerDependenciesMeta:
     "@angular/platform-server":
       optional: true
-  checksum: 10c0/4780c3b7d4d85e99c6fb01904c3cf32e3eefa7ad225e10025c4676b053170e0de8af2fe3c29a97110e2f3a75eea29808002c2388f1de3c435daa7d00958f00fb
+  checksum: 10c0/3050f75979ed98b570d524b2b770acc5e3d548a7186ad02de6598f1e53621a1bda7879be3a27b15e535c335577d4958a6c1443e15c20278d143fd53fb839162b
   languageName: node
   linkType: hard
 
@@ -5560,7 +5560,7 @@ __metadata:
     "@angular/platform-browser-dynamic": "npm:^19.2.0"
     "@angular/platform-server": "npm:^19.1.7"
     "@angular/router": "npm:^19.2.0"
-    "@angular/ssr": "npm:^19.1.8"
+    "@angular/ssr": "npm:^19.2.0"
     "@types/express": "npm:^5.0.0"
     "@types/jasmine": "npm:~5.1.7"
     "@types/node": "npm:^22.13.5"
