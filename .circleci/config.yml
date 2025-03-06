@@ -20,11 +20,11 @@ commands:
           name: 'Building << parameters.path >>'
           command: |
             cd "<< parameters.path >>"
-            sudo npm i -g corepack
+            sudo npm i -g npm@8.4.1 && nvm install 17.5.0 && nvm use 17.5.0
             corepack enable
-            yarn set version stable
+            yarn set version 3.1.1
             yarn
-            yarn explain peer-requirements
+            yarn build
 
       - save_cache:
           name: Save Yarn Package Cache for << parameters.path >>
