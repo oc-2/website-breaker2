@@ -23,8 +23,8 @@ commands:
             sudo npm i -g corepack
             corepack enable
             yarn set version stable
-            yarn
-            yarn build
+            yarn explain peer-requirements
+
       - save_cache:
           name: Save Yarn Package Cache for << parameters.path >>
           key: yarn-packages-{{ checksum "<< parameters.path >>/yarn.lock" }}
