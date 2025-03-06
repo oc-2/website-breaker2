@@ -23,6 +23,7 @@ commands:
             sudo npm i -g corepack
             corepack enable
             yarn set version stable
+            yarn
             yarn explain peer-requirements
 
       - save_cache:
