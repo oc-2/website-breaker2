@@ -505,15 +505,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/core@npm:^19.2.0":
-  version: 19.2.1
-  resolution: "@angular/core@npm:19.2.1"
+"@angular/core@npm:^19.2.2":
+  version: 19.2.2
+  resolution: "@angular/core@npm:19.2.2"
   dependencies:
     tslib: ^2.3.0
   peerDependencies:
     rxjs: ^6.5.3 || ^7.4.0
     zone.js: ~0.15.0
-  checksum: db89811b3dc489e532b41f1b7128549c8f3f7fd245c4bdf3bab2f978de9becb1bda3b8ee653b9caa70f4a84fa04cc5ae4fd8240171568d4b4372d39070621019
+  checksum: 48a34b933bfc36fe52d757ddc34278cb885824f86ef778251bf24ccadc7363c07991ebff7eb4621c3fa1a6b27748a90781afa878a6e210c7f2673f97e5133859
   languageName: node
   linkType: hard
 
@@ -5792,7 +5792,7 @@ __metadata:
     "@angular/common": ^19.2.2
     "@angular/compiler": ^19.2.2
     "@angular/compiler-cli": ^19.2.2
-    "@angular/core": ^19.2.0
+    "@angular/core": ^19.2.2
     "@angular/forms": ^19.2.0
     "@angular/google-maps": ^19.2.3
     "@angular/platform-browser": ^19.2.2
