@@ -5,7 +5,7 @@ updates:
     labels:
       - "dependencies"
     schedule:
-      interval: "daily"
+      interval: "weekly"
     commit-message:
       prefix: "⬆️"
     open-pull-requests-limit: 7
