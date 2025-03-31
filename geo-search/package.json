@@ -18,7 +18,7 @@
     "@angular/forms": "^19.2.3",
     "@angular/google-maps": "^19.2.6",
     "@angular/platform-browser": "^19.2.4",
-    "@angular/platform-browser-dynamic": "^19.2.3",
+    "@angular/platform-browser-dynamic": "^19.2.4",
     "@angular/platform-server": "^19.2.4",
     "@angular/router": "^19.2.4",
     "@angular/ssr": "^19.2.5",
