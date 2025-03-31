@@ -570,19 +570,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/platform-server@npm:^19.2.3":
-  version: 19.2.3
-  resolution: "@angular/platform-server@npm:19.2.3"
+"@angular/platform-server@npm:^19.2.4":
+  version: 19.2.4
+  resolution: "@angular/platform-server@npm:19.2.4"
   dependencies:
     tslib: ^2.3.0
     xhr2: ^0.2.0
   peerDependencies:
-    "@angular/common": 19.2.3
-    "@angular/compiler": 19.2.3
-    "@angular/core": 19.2.3
-    "@angular/platform-browser": 19.2.3
+    "@angular/common": 19.2.4
+    "@angular/compiler": 19.2.4
+    "@angular/core": 19.2.4
+    "@angular/platform-browser": 19.2.4
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 5325d9ec93860ce6b536c75ba0cc016a96f39ec97193a3b44c186d05a1e07d029ad72226cacaeca7d3c274fe017d17cef33494d448954af1bb42991f280371dd
+  checksum: 99f2dc21f0dd2885f94ace590aa80c9c21c092f596f8abc0e44b24c3db0394324324893d3727199fa12c822330479932928dd6bba903b08554c944cf2a9c0228
   languageName: node
   linkType: hard
 
@@ -5804,7 +5804,7 @@ __metadata:
     "@angular/google-maps": ^19.2.6
     "@angular/platform-browser": ^19.2.4
     "@angular/platform-browser-dynamic": ^19.2.3
-    "@angular/platform-server": ^19.2.3
+    "@angular/platform-server": ^19.2.4
     "@angular/router": ^19.2.4
     "@angular/ssr": ^19.2.4
     "@types/express": ^5.0.1
