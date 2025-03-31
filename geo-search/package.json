@@ -20,7 +20,7 @@
     "@angular/platform-browser": "^19.2.3",
     "@angular/platform-browser-dynamic": "^19.2.3",
     "@angular/platform-server": "^19.2.3",
-    "@angular/router": "^19.2.3",
+    "@angular/router": "^19.2.4",
     "@angular/ssr": "^19.2.4",
     "algoliasearch": "^5.21.0",
     "express": "^4.21.2",
