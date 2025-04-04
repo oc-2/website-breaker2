@@ -348,14 +348,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/animations@npm:^19.2.3":
-  version: 19.2.3
-  resolution: "@angular/animations@npm:19.2.3"
+"@angular/animations@npm:^19.2.5":
+  version: 19.2.5
+  resolution: "@angular/animations@npm:19.2.5"
   dependencies:
     tslib: ^2.3.0
   peerDependencies:
-    "@angular/core": 19.2.3
-  checksum: d5fcd6636ee76fbb630e130fb9f51942c10b87cfaa8fe7af8c799d195098d36b8bef0273e16026930c58ce3d1b97a65015fd787d13c7e678987e06f2c0d84e74
+    "@angular/common": 19.2.5
+    "@angular/core": 19.2.5
+  checksum: cc08da8d8e40179084516b49c962173e414844525ae46955b6da9a3c09220c437a0821d9a9a53af12e09468c713486f59784a0289e3be1db6a1ba72a7830dba9
   languageName: node
   linkType: hard
 
@@ -456,15 +457,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/common@npm:^19.2.3":
-  version: 19.2.3
-  resolution: "@angular/common@npm:19.2.3"
+"@angular/common@npm:^19.2.5":
+  version: 19.2.5
+  resolution: "@angular/common@npm:19.2.5"
   dependencies:
     tslib: ^2.3.0
   peerDependencies:
-    "@angular/core": 19.2.3
+    "@angular/core": 19.2.5
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 2c19cbc968611746ce9c16f57ce752cdf2e2fefec071023e10bf1534a0be404436ea70210a5563e9285166ded67b3abf8519b4195c552487f4f750cc53852648
+  checksum: 58556e7ce23d0dab22bfef2aa454f5e06b3ce0df096d4f61841eaf128a67af8517c6cf40eeb7a3aa5978289fdd8575406ee7288dfe20ef1c16b2b862a80956ee
   languageName: node
   linkType: hard
 
@@ -491,38 +492,38 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/compiler@npm:^19.2.3":
-  version: 19.2.3
-  resolution: "@angular/compiler@npm:19.2.3"
+"@angular/compiler@npm:^19.2.5":
+  version: 19.2.5
+  resolution: "@angular/compiler@npm:19.2.5"
   dependencies:
     tslib: ^2.3.0
-  checksum: b16fac06a43d9957dc4ee8ad0827edf933d97d7848feeef9da878441b7d4ef3f250102b8f3486fedc0eefb9281963e3c26fbed0c02707100d9931ec68f240258
+  checksum: ffd9daa885a2d9967d213954ca79efbeb83172d21c671eaadf71c54db087d9500ada1ea7d86033e7630ca531294d4974ff27b8f070487f62e358090d62fb538a
   languageName: node
   linkType: hard
 
-"@angular/core@npm:^19.2.3":
-  version: 19.2.3
-  resolution: "@angular/core@npm:19.2.3"
+"@angular/core@npm:^19.2.5":
+  version: 19.2.5
+  resolution: "@angular/core@npm:19.2.5"
   dependencies:
     tslib: ^2.3.0
   peerDependencies:
     rxjs: ^6.5.3 || ^7.4.0
     zone.js: ~0.15.0
-  checksum: 617e384a035c1fa86b8bbd18359832d5861b28b85fa02d003572050990302c85f05f7b0e131c83811c79c5d23043d470eec09b451e88abaf73bafc25a413e233
+  checksum: f544bfd5ce532fd5f009ee36877650e55d40321ad11258dc53ae7a9d1b473007ce407f3368cc371028e8528d0dacece663e930e4e5e42ea3658742cba731bdc5
   languageName: node
   linkType: hard
 
-"@angular/forms@npm:^19.2.3":
-  version: 19.2.3
-  resolution: "@angular/forms@npm:19.2.3"
+"@angular/forms@npm:^19.2.5":
+  version: 19.2.5
+  resolution: "@angular/forms@npm:19.2.5"
   dependencies:
     tslib: ^2.3.0
   peerDependencies:
-    "@angular/common": 19.2.3
-    "@angular/core": 19.2.3
-    "@angular/platform-browser": 19.2.3
+    "@angular/common": 19.2.5
+    "@angular/core": 19.2.5
+    "@angular/platform-browser": 19.2.5
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: f5e728fa2ac2d3036d2a211b7cc43e538e4590140fd7d1e13ef1e6fd34850611d647753bf196b76b1f28a7bbdfd34fae525b1efb18343c362365dbe078b87e9c
+  checksum: 3de1033dc5310f193f3cf47a1a5c5fc49314da3190c9c607a2064a90b40821229ff88ca43ee584aac3ab044e9ead23263643ae3c8726a41c83bc953a1921cd5a
   languageName: node
   linkType: hard
 
@@ -540,63 +541,63 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/platform-browser-dynamic@npm:^19.2.4":
-  version: 19.2.4
-  resolution: "@angular/platform-browser-dynamic@npm:19.2.4"
+"@angular/platform-browser-dynamic@npm:^19.2.5":
+  version: 19.2.5
+  resolution: "@angular/platform-browser-dynamic@npm:19.2.5"
   dependencies:
     tslib: ^2.3.0
   peerDependencies:
-    "@angular/common": 19.2.4
-    "@angular/compiler": 19.2.4
-    "@angular/core": 19.2.4
-    "@angular/platform-browser": 19.2.4
-  checksum: 4046b6c454a8e322dfd4c8e960ee4e577f324e414994362c570e2ac8e313649efc2b1fef599e94d97987167cc2852ef64adf872677df761bf7a0f41cab905f96
+    "@angular/common": 19.2.5
+    "@angular/compiler": 19.2.5
+    "@angular/core": 19.2.5
+    "@angular/platform-browser": 19.2.5
+  checksum: f27afadbf1f7bccbe16d49baab62381c69adb59463a2af604b26f197966ba0bed065c455048bbf910fded0681c51aebd82b93daea165430135a010d7f6e8efec
   languageName: node
   linkType: hard
 
-"@angular/platform-browser@npm:^19.2.4":
-  version: 19.2.4
-  resolution: "@angular/platform-browser@npm:19.2.4"
+"@angular/platform-browser@npm:^19.2.5":
+  version: 19.2.5
+  resolution: "@angular/platform-browser@npm:19.2.5"
   dependencies:
     tslib: ^2.3.0
   peerDependencies:
-    "@angular/animations": 19.2.4
-    "@angular/common": 19.2.4
-    "@angular/core": 19.2.4
+    "@angular/animations": 19.2.5
+    "@angular/common": 19.2.5
+    "@angular/core": 19.2.5
   peerDependenciesMeta:
     "@angular/animations":
       optional: true
-  checksum: ecde56793e77d7b6b1697fa6fa799de76dcc01a593ae1d28ba3c345f0e97ae37761caad620ec4b1aab44168271b1c845c5bc94c45a5f429ecfada563b37ad701
+  checksum: 4c3ecfa800a57c620f5728af71899628d18efc987305ecb69d4506fd5438d59230255362834d803c73c2972a56e621cfa2d3d893b6281b14257f3c66c0109e1d
   languageName: node
   linkType: hard
 
-"@angular/platform-server@npm:^19.2.4":
-  version: 19.2.4
-  resolution: "@angular/platform-server@npm:19.2.4"
+"@angular/platform-server@npm:^19.2.5":
+  version: 19.2.5
+  resolution: "@angular/platform-server@npm:19.2.5"
   dependencies:
     tslib: ^2.3.0
     xhr2: ^0.2.0
   peerDependencies:
-    "@angular/common": 19.2.4
-    "@angular/compiler": 19.2.4
-    "@angular/core": 19.2.4
-    "@angular/platform-browser": 19.2.4
+    "@angular/common": 19.2.5
+    "@angular/compiler": 19.2.5
+    "@angular/core": 19.2.5
+    "@angular/platform-browser": 19.2.5
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 99f2dc21f0dd2885f94ace590aa80c9c21c092f596f8abc0e44b24c3db0394324324893d3727199fa12c822330479932928dd6bba903b08554c944cf2a9c0228
+  checksum: de4ac9aad9688cb401ca80bc6d300ac9fb8a55ebdc4be13f9022a5cb6a17466fed45a56c7c5a8b5059d0c67560bbce6b70f3b553b13d1b24d4ac36cd18c193cc
   languageName: node
   linkType: hard
 
-"@angular/router@npm:^19.2.4":
-  version: 19.2.4
-  resolution: "@angular/router@npm:19.2.4"
+"@angular/router@npm:^19.2.5":
+  version: 19.2.5
+  resolution: "@angular/router@npm:19.2.5"
   dependencies:
     tslib: ^2.3.0
   peerDependencies:
-    "@angular/common": 19.2.4
-    "@angular/core": 19.2.4
-    "@angular/platform-browser": 19.2.4
+    "@angular/common": 19.2.5
+    "@angular/core": 19.2.5
+    "@angular/platform-browser": 19.2.5
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 492d34e851676a6c407c90d1a5859744214a04d3ab4894aa80bbc2cadaddea23eeb544023a87836a7bc7b459c002420e733957c9e58ea2f1901038dcb6a0ea06
+  checksum: 7aaf5cd6142c0c686be2e730a9550e6b7b4414a4b6841175dd4d6572a9b3080337c655d75b4a66be50fa09ddbc4a3e70a93fff295f2b40e4e8298dab493e8403
   languageName: node
   linkType: hard
 
@@ -5794,18 +5795,18 @@ __metadata:
   resolution: "geo-search@workspace:."
   dependencies:
     "@angular-devkit/build-angular": ^19.2.5
-    "@angular/animations": ^19.2.3
+    "@angular/animations": ^19.2.5
     "@angular/cli": ^19.2.6
-    "@angular/common": ^19.2.3
-    "@angular/compiler": ^19.2.3
+    "@angular/common": ^19.2.5
+    "@angular/compiler": ^19.2.5
     "@angular/compiler-cli": ^19.2.3
-    "@angular/core": ^19.2.3
-    "@angular/forms": ^19.2.3
+    "@angular/core": ^19.2.5
+    "@angular/forms": ^19.2.5
     "@angular/google-maps": ^19.2.6
-    "@angular/platform-browser": ^19.2.4
-    "@angular/platform-browser-dynamic": ^19.2.4
-    "@angular/platform-server": ^19.2.4
-    "@angular/router": ^19.2.4
+    "@angular/platform-browser": ^19.2.5
+    "@angular/platform-browser-dynamic": ^19.2.5
+    "@angular/platform-server": ^19.2.5
+    "@angular/router": ^19.2.5
     "@angular/ssr": ^19.2.5
     "@types/express": ^5.0.1
     "@types/jasmine": ~5.1.7
