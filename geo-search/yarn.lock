@@ -601,9 +601,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/ssr@npm:^19.2.7":
-  version: 19.2.7
-  resolution: "@angular/ssr@npm:19.2.7"
+"@angular/ssr@npm:^19.2.8":
+  version: 19.2.8
+  resolution: "@angular/ssr@npm:19.2.8"
   dependencies:
     tslib: ^2.3.0
   peerDependencies:
@@ -614,7 +614,7 @@ __metadata:
   peerDependenciesMeta:
     "@angular/platform-server":
       optional: true
-  checksum: 36444b002c6eadea2b40c2cbe0ea18e54b7d0e2266731e2b17811c23c2430909b36f2a32e812a5b9349d0fed590afc066489e16babf432677dbd343ce627a54f
+  checksum: 022666f2a8dfed4b7de82e2d4bd7a6aef5d5aaeac93a9fc61358512c516c8cb276228bd58b1c7d337247b5a10800c5f1f44ed81187e83697eb4a39a62288c28b
   languageName: node
   linkType: hard
 
@@ -5814,7 +5814,7 @@ __metadata:
     "@angular/platform-browser-dynamic": ^19.2.6
     "@angular/platform-server": ^19.2.6
     "@angular/router": ^19.2.6
-    "@angular/ssr": ^19.2.7
+    "@angular/ssr": ^19.2.8
     "@types/express": ^5.0.1
     "@types/jasmine": ~5.1.7
     "@types/node": ^22.14.1
