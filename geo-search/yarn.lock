@@ -484,17 +484,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/forms@npm:^19.2.6":
-  version: 19.2.6
-  resolution: "@angular/forms@npm:19.2.6"
+"@angular/forms@npm:^19.2.7":
+  version: 19.2.7
+  resolution: "@angular/forms@npm:19.2.7"
   dependencies:
     tslib: ^2.3.0
   peerDependencies:
-    "@angular/common": 19.2.6
-    "@angular/core": 19.2.6
-    "@angular/platform-browser": 19.2.6
+    "@angular/common": 19.2.7
+    "@angular/core": 19.2.7
+    "@angular/platform-browser": 19.2.7
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 3f0d0b41805e7c10b2414c01aea8cd7d014d06ea616de6c9ef4f0e9438a51910403784f60c34109aed2a86a4ddf0ce9473e432855fd1d06b2e33f079b4027cc8
+  checksum: 967fcef231336059d5a75c4f007f1377f8b9349ecbc291f5634d1e520aab3706d002cb6fdcc40d4f84afde2402270612633a3ea1f606d95156f3df706bc79055
   languageName: node
   linkType: hard
 
@@ -5779,7 +5779,7 @@ __metadata:
     "@angular/compiler": ^19.2.6
     "@angular/compiler-cli": ^19.2.7
     "@angular/core": ^19.2.7
-    "@angular/forms": ^19.2.6
+    "@angular/forms": ^19.2.7
     "@angular/google-maps": ^19.2.10
     "@angular/platform-browser": ^19.2.7
     "@angular/platform-browser-dynamic": ^19.2.7
