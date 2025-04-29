@@ -5791,7 +5791,7 @@ __metadata:
     "@types/node": ^22.15.2
     algoliasearch: ^5.23.4
     express: ^4.21.2
-    jasmine-core: ~5.6.0
+    jasmine-core: ~5.7.0
     karma: ~6.4.0
     karma-chrome-launcher: ~3.2.0
     karma-coverage: ~2.2.0
@@ -6567,10 +6567,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jasmine-core@npm:~5.6.0":
-  version: 5.6.0
-  resolution: "jasmine-core@npm:5.6.0"
-  checksum: 787d51e7b8fa38f0a36034161a3ba5a029a370263e4eb335619413629be364139e158d393e409e5c4ed87720dc6d0183aa3372bb27ec4b955459b6725daa7e2b
+"jasmine-core@npm:~5.7.0":
+  version: 5.7.0
+  resolution: "jasmine-core@npm:5.7.0"
+  checksum: b492956dcdebec30fcddb99406281d55794133cab79c87ae80ccd8cb6598b73b1fc346d99ec1b951423f5023927f89a4cf60ccf5d91be71c1c265104efdff250
   languageName: node
   linkType: hard
 
