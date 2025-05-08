@@ -440,9 +440,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/compiler-cli@npm:^19.2.9":
-  version: 19.2.9
-  resolution: "@angular/compiler-cli@npm:19.2.9"
+"@angular/compiler-cli@npm:^19.2.10":
+  version: 19.2.10
+  resolution: "@angular/compiler-cli@npm:19.2.10"
   dependencies:
     "@babel/core": 7.26.9
     "@jridgewell/sourcemap-codec": ^1.4.14
@@ -453,13 +453,13 @@ __metadata:
     tslib: ^2.3.0
     yargs: ^17.2.1
   peerDependencies:
-    "@angular/compiler": 19.2.9
+    "@angular/compiler": 19.2.10
     typescript: ">=5.5 <5.9"
   bin:
     ng-xi18n: bundles/src/bin/ng_xi18n.js
     ngc: bundles/src/bin/ngc.js
     ngcc: bundles/ngcc/index.js
-  checksum: b1473509337651b8987cdef3bb7d0e45ced4559112c08a62c9fca86271d09b1e36fca18fe84e9805a1f569411f33e71be18e40ef5a74096c50c690331ae486a9
+  checksum: 7444778dae1a7bd2a4da6103ee3ce55a4ed6b8feb73538b3d8d322a1d0222d135a61e15a7c94d148e4699b86c84529474382eb458bf021c56e2c901a78294d32
   languageName: node
   linkType: hard
 
@@ -5777,7 +5777,7 @@ __metadata:
     "@angular/cli": ^19.2.10
     "@angular/common": ^19.2.10
     "@angular/compiler": ^19.2.10
-    "@angular/compiler-cli": ^19.2.9
+    "@angular/compiler-cli": ^19.2.10
     "@angular/core": ^19.2.10
     "@angular/forms": ^19.2.10
     "@angular/google-maps": ^19.2.14
