@@ -3625,12 +3625,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^22.15.3":
-  version: 22.15.3
-  resolution: "@types/node@npm:22.15.3"
+"@types/node@npm:^22.15.17":
+  version: 22.15.17
+  resolution: "@types/node@npm:22.15.17"
   dependencies:
     undici-types: ~6.21.0
-  checksum: 26618a9fdfb84de3841e898b7c5fd372e1c0bdb9adc3ec71c12c38dd07d4e73da14681924919d27ff509ebf3714b8de941a21f51c26146cc8aaae31561ca7a5c
+  checksum: f83748c14c8ae3b7d1672af4009b892a5ae652c05c4b61c39e842711e232a0db37991611364aea9522fdf48290a8cc27403138bc479ef24ff0c9222319e7858b
   languageName: node
   linkType: hard
 
@@ -5788,7 +5788,7 @@ __metadata:
     "@angular/ssr": ^19.2.11
     "@types/express": ^5.0.1
     "@types/jasmine": ~5.1.7
-    "@types/node": ^22.15.3
+    "@types/node": ^22.15.17
     algoliasearch: ^5.24.0
     express: ^4.21.2
     jasmine-core: ~5.7.1
