@@ -3586,10 +3586,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jasmine@npm:~5.1.7":
-  version: 5.1.7
-  resolution: "@types/jasmine@npm:5.1.7"
-  checksum: 6ef77af667f10997d391488221ce3aaf2c95e7951b383d2259b81ed23babfd259d05485bec7a8f634e05ecc5740cb4153a2959617f806622ea5de5d15610e4d4
+"@types/jasmine@npm:~5.1.8":
+  version: 5.1.8
+  resolution: "@types/jasmine@npm:5.1.8"
+  checksum: 6861d1b51b86ef97aecfaece0ce3a16e1331a7a0b413c74b4dfd587ad74e8b7ae0fec4d463f7debd6dbb3d630bdebd5eadd438e6ece98803df85219569db9901
   languageName: node
   linkType: hard
 
@@ -5787,7 +5787,7 @@ __metadata:
     "@angular/router": ^19.2.10
     "@angular/ssr": ^19.2.11
     "@types/express": ^5.0.1
-    "@types/jasmine": ~5.1.7
+    "@types/jasmine": ~5.1.8
     "@types/node": ^22.15.17
     algoliasearch: ^5.24.0
     express: ^4.21.2
