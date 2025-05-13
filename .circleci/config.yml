@@ -22,7 +22,7 @@ commands:
             cd "<< parameters.path >>"
             sudo npm i -g corepack
             corepack enable
-            yarn set version 3.1.1
+            yarn set version 4.9.1
             yarn
             yarn build
 
