@@ -30,7 +30,7 @@ commands:
           name: Save Yarn Package Cache for << parameters.path >>
           key: yarn-packages-{{ checksum "<< parameters.path >>/yarn.lock" }}
           paths:
-            - ./<< parameters.path >>/node_modules
+            - ./<< parameters.path >>/.pnp.cjs
 
 jobs:
   build_angular:
