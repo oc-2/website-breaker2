@@ -23,8 +23,7 @@ commands:
             sudo npm i -g corepack
             corepack enable
             yarn set version 4.9.1
-            yarn
-            yarn build
+            node --trace-warnings
 
       - save_cache:
           name: Save Yarn Package Cache for << parameters.path >>
