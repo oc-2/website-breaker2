@@ -9,7 +9,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:geo-search": "node dist/geo-search/server/server.mjs",
-    "work1": "ng update @angular/cli @angular/core"
+    "work1": "ng build --aot"
   },
   "dependencies": {
     "@angular/animations": "^19.2.11",
