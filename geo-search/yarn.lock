@@ -472,7 +472,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/core@npm:*, @angular/core@npm:^19.2.11":
+"@angular/core@npm:*":
   version: 19.2.11
   resolution: "@angular/core@npm:19.2.11"
   dependencies:
@@ -481,6 +481,18 @@ __metadata:
     rxjs: ^6.5.3 || ^7.4.0
     zone.js: ~0.15.0
   checksum: 10/aceba2f19ca56c73e59214b292d9f43260b0b3b6dd6f4d2d38ee4ddae4124c518474b5118d7f92289a86fd424b0aefbb75afcc930b7e6479a1a5101d1a3bec64
+  languageName: node
+  linkType: hard
+
+"@angular/core@npm:^19.2.13":
+  version: 19.2.13
+  resolution: "@angular/core@npm:19.2.13"
+  dependencies:
+    tslib: "npm:^2.3.0"
+  peerDependencies:
+    rxjs: ^6.5.3 || ^7.4.0
+    zone.js: ~0.15.0
+  checksum: 10/d10d4bb04644c39d5e1beb48c47083244d585db498f6b3d01237d55d3c61d792edb40da92a63eb0bf6d1883115bc84b4592eaa5cb43cd17cfca44e5ec917305a
   languageName: node
   linkType: hard
 
@@ -5610,7 +5622,7 @@ __metadata:
     "@angular/common": "npm:^19.2.11"
     "@angular/compiler": "npm:^19.2.11"
     "@angular/compiler-cli": "npm:^19.2.13"
-    "@angular/core": "npm:^19.2.11"
+    "@angular/core": "npm:^19.2.13"
     "@angular/forms": "npm:^19.2.11"
     "@angular/google-maps": "npm:^19.2.15"
     "@angular/platform-browser": "npm:^19.2.11"
