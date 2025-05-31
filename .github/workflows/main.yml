@@ -42,8 +42,6 @@ jobs:
           path: website-breaker/
      
   deploy:
-    permissions:
-      contents: none
     runs-on: ubuntu-latest
     needs: build
     environment:
@@ -51,4 +49,4 @@ jobs:
       url: ${{ steps.deploy-to-github-pages.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v
