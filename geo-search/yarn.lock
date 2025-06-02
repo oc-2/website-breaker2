@@ -588,19 +588,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/platform-browser@npm:^19.2.11":
-  version: 19.2.11
-  resolution: "@angular/platform-browser@npm:19.2.11"
+"@angular/platform-browser@npm:^20.0.0":
+  version: 20.0.0
+  resolution: "@angular/platform-browser@npm:20.0.0"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/animations": 19.2.11
-    "@angular/common": 19.2.11
-    "@angular/core": 19.2.11
+    "@angular/animations": 20.0.0
+    "@angular/common": 20.0.0
+    "@angular/core": 20.0.0
   peerDependenciesMeta:
     "@angular/animations":
       optional: true
-  checksum: 10/09e2d97078cc25e749e912f9fa8cf29161db3af475a8498a4c7e04c0be9d410506f9e1b6d2654c517ce6853e2bd0d0a37faefff665051783a9da2c0c27530934
+  checksum: 10/5d5df19cd1c60340b44a9c0a875fa7bfc38201aeb07e952bf021ed037315746e7ef65df6d0e3e7512e69879937c9a980c28387c9302c3c888c6f8b5140b25734
   languageName: node
   linkType: hard
 
@@ -5675,7 +5675,7 @@ __metadata:
     "@angular/core": "npm:^19.2.13"
     "@angular/forms": "npm:^19.2.11"
     "@angular/google-maps": "npm:^19.2.15"
-    "@angular/platform-browser": "npm:^19.2.11"
+    "@angular/platform-browser": "npm:^20.0.0"
     "@angular/platform-browser-dynamic": "npm:^19.2.11"
     "@angular/platform-server": "npm:^19.2.11"
     "@angular/router": "npm:^19.2.11"
