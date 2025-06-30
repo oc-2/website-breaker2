@@ -16,7 +16,7 @@
     "@angular/compiler": "^20.0.2",
     "@angular/core": "^19.2.13",
     "@angular/forms": "^20.0.5",
-    "@angular/google-maps": "^19.2.15",
+    "@angular/google-maps": "^20.0.4",
     "@angular/platform-browser": "^20.0.5",
     "@angular/platform-browser-dynamic": "^20.0.4",
     "@angular/platform-server": "^20.0.3",
