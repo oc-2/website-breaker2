@@ -348,15 +348,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/animations@npm:^20.0.6":
-  version: 20.0.6
-  resolution: "@angular/animations@npm:20.0.6"
+"@angular/animations@npm:^20.1.4":
+  version: 20.1.4
+  resolution: "@angular/animations@npm:20.1.4"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/common": 20.0.6
-    "@angular/core": 20.0.6
-  checksum: 10/5685d5d341038bf358f5ca9c6c707f49e7d398a0fe5f57dfa0ffdaf44ddb1021be2d19fd0873b60e754184215e9e4a5972fcf8026a06e1bdd1c9014177f162ee
+    "@angular/common": 20.1.4
+    "@angular/core": 20.1.4
+  checksum: 10/f91a15216542360a2dc28c3e1f2f1a18149f86baffe1d53f1bfb7bfa8a8bcb2eb0eacf0de79fa035c7b316096a6d7799d710cdf41d75c9c343aac6a01be05601
   languageName: node
   linkType: hard
 
@@ -5798,7 +5798,7 @@ __metadata:
   resolution: "geo-search@workspace:."
   dependencies:
     "@angular-devkit/build-angular": "npm:^19.2.13"
-    "@angular/animations": "npm:^20.0.6"
+    "@angular/animations": "npm:^20.1.4"
     "@angular/cli": "npm:^20.0.3"
     "@angular/common": "npm:^19.2.13"
     "@angular/compiler": "npm:^20.0.6"
