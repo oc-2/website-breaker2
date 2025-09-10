@@ -19,7 +19,7 @@
     "@angular/google-maps": "^20.0.4",
     "@angular/platform-browser": "^20.0.6",
     "@angular/platform-browser-dynamic": "^20.0.4",
-    "@angular/platform-server": "^20.0.6",
+    "@angular/platform-server": "^20.3.0",
     "@angular/router": "^20.0.5",
     "@angular/ssr": "^19.2.13",
     "algoliasearch": "^5.30.0",
