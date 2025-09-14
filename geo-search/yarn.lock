@@ -535,15 +535,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/core@npm:^19.2.13":
-  version: 19.2.13
-  resolution: "@angular/core@npm:19.2.13"
+"@angular/core@npm:^20.3.0":
+  version: 20.3.0
+  resolution: "@angular/core@npm:20.3.0"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
+    "@angular/compiler": 20.3.0
     rxjs: ^6.5.3 || ^7.4.0
     zone.js: ~0.15.0
-  checksum: 10/d10d4bb04644c39d5e1beb48c47083244d585db498f6b3d01237d55d3c61d792edb40da92a63eb0bf6d1883115bc84b4592eaa5cb43cd17cfca44e5ec917305a
+  peerDependenciesMeta:
+    "@angular/compiler":
+      optional: true
+    zone.js:
+      optional: true
+  checksum: 10/527cd597594baed72729f6ac27d8e0a788333cb1de46b6a2fef60a44f10b80ab43cbb57584e4d0dc977e97b0446673e0f15d370fc94053a4cb2c3f7ccc49b7f1
   languageName: node
   linkType: hard
 
@@ -5803,7 +5809,7 @@ __metadata:
     "@angular/common": "npm:^19.2.13"
     "@angular/compiler": "npm:^20.0.6"
     "@angular/compiler-cli": "npm:^20.0.5"
-    "@angular/core": "npm:^19.2.13"
+    "@angular/core": "npm:^20.3.0"
     "@angular/forms": "npm:^20.0.5"
     "@angular/google-maps": "npm:^20.0.4"
     "@angular/platform-browser": "npm:^20.0.6"
