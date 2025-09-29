@@ -621,17 +621,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/router@npm:^20.0.5":
-  version: 20.0.5
-  resolution: "@angular/router@npm:20.0.5"
+"@angular/router@npm:^20.3.2":
+  version: 20.3.2
+  resolution: "@angular/router@npm:20.3.2"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/common": 20.0.5
-    "@angular/core": 20.0.5
-    "@angular/platform-browser": 20.0.5
+    "@angular/common": 20.3.2
+    "@angular/core": 20.3.2
+    "@angular/platform-browser": 20.3.2
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10/dbeb09bae55a666e8d000cfbbc682ef928ca9183dd92fce01c2409e9baa8bff22ae38e39326422500f6cdccc16f48455f2492ff70e17078581d28aa7d5056101
+  checksum: 10/c1cd4e43d4bc9cdf945c39c3bb7ceff264b2a1ba9568fafc116c82bb769c48c4ddb5610e9099a435f4d20f0bfb4a6de7f7c39d1c51ce3f662a1904569b59578b
   languageName: node
   linkType: hard
 
@@ -5809,7 +5809,7 @@ __metadata:
     "@angular/platform-browser": "npm:^20.0.6"
     "@angular/platform-browser-dynamic": "npm:^20.0.4"
     "@angular/platform-server": "npm:^20.3.0"
-    "@angular/router": "npm:^20.0.5"
+    "@angular/router": "npm:^20.3.2"
     "@angular/ssr": "npm:^19.2.13"
     "@types/express": "npm:^5.0.1"
     "@types/jasmine": "npm:^5.1.8"
