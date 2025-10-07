@@ -1,5 +1,5 @@
 import { FreshContext } from "$fresh/server.ts";
-import pluralize from "jsr:@wei/pluralize";
+import pluralize from "jsr:@wei/pluralize@8.0.2";
 // Jokes courtesy of https://punsandoneliners.com/randomness/programmer-jokes/
 const JOKES = [
   `Why do Java ${pluralize("developer")} often wear glasses? They can't C#.`,
