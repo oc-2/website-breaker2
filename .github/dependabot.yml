@@ -5,8 +5,12 @@ updates:
     labels:
       - "dependencies"
     schedule:
-      interval: "weekly"
-    open-pull-requests-limit: 7
+      interval: "daily"
+    ignore:
+      - dependency-name: "@angular/*"
+      - dependency-name: "angular"
+      - dependency-name: "@angular-devkit/*"
+
   - package-ecosystem: "github-actions"
     directory: "/"
     labels:
