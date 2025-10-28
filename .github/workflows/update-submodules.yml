@@ -1,0 +1,46 @@
+name: Update website-breaker submodule
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "0 */8 * * *"
+
+jobs:
+  update-submodule:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout main repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          submodules: true
+
+      - name: Update website-breaker submodule to latest remote commit
+        run: |
+          echo "Updating website-breaker submodule..."
+          cd website-breaker
+          git fetch origin main || git fetch origin master || true
+
+          # Try main, then fallback to master
+          if git show-ref --verify --quiet refs/remotes/origin/main; then
+            git reset --hard origin/main
+          else
+            git reset --hard origin/master
+          fi
+
+          cd ../..
+          git add website-breaker
+
+          echo "Checking for submodule changes..."
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git commit -m "Update website-breaker submodule to latest commit"
+            git push origin HEAD
+            echo "✅ Submodule updated and pushed."
+          else
+            echo "✔ Submodule already up to date."
+          fi
