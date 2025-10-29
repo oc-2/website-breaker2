@@ -17,24 +17,14 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           submodules: true
+          fetch-depth: 0
 
       - name: Update website-breaker submodule to latest remote commit
         run: |
           echo "Updating website-breaker submodule..."
-          cd website-breaker
-          git fetch origin main || git fetch origin master || true
-
-          # Try main, then fallback to master
-          if git show-ref --verify --quiet refs/remotes/origin/main; then
-            git reset --hard origin/main
-          else
-            git reset --hard origin/master
-          fi
-
-          cd ../..
+          git submodule update --init --remote --recursive
           git add website-breaker
 
-          echo "Checking for submodule changes..."
           if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"

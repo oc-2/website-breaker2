@@ -1,3 +1,4 @@
 [submodule "website-breaker"]
 	path = website-breaker
 	url = https://github.com/oc-2/websitebreaker2-deno.git
+  branch = main
