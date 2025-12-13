@@ -23,4 +23,4 @@ yarn start
 
 Open http://localhost:3000
 
-Or: https://geo-search-7f165.web.app
+Or if you can't wait: https://geo-search-7f165.web.app
